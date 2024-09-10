@@ -1,0 +1,32 @@
+<section class="teclado">
+    <button class="tecla tecla_pom" onclick="tocaSomPom">pom</button>
+    <button class="tecla tecla_clap" onclick="tocaSomPom">pom</button>
+    <button class="tecla tecla_tim" onclick="tocaSomPom">pom</button>
+
+    <button class="tecla tecla_puff" onclick="tocaSomPom">pom</button>
+    <button class="tecla tecla_splash" onclick="tocaSomPom">pom</button>
+    <button class="tecla tecla_toim" onclick="tocaSomPom">pom</button>
+
+    <button class="tecla tecla_psh" onclick="tocaSomPom">pom</button>
+    <button class="tecla tecla_tic" onclick="tocaSomPom">pom</button>
+    <button class="tecla tecla_tom" onclick="tocaSomPom">pom</button>
+</section>
+
+    <audio controls src="souds/keyq.wav" id="som_tecla_pom"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_clap"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_tim"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_puff"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_splash"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_toim"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_psh"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_tic"></audio>
+    <audio controls src="souds/keyq.wav" id="som_tecla_tom"></audio>
+
+    <script>
+        function tocaSomPom(){
+            document.querySelector('#som_tecla_pom').play()
+        }
+
+        function tocaSomclap(){
+            document.querySelector('#som_tecla_clap').play()
+        }    </script>
